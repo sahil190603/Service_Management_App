@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-container {
+  overflow-y: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+
+@media (min-width: 768px) {
+  *::-webkit-scrollbar {
+    width: 6px; 
+  }
+  *::-webkit-scrollbar-thumb {
+    background: rgb(112, 112, 112);
+    border-radius: 10px;
+  }
+}
+
+.Sketeton_of_table{
+  background: linear-gradient(125deg, rgba(230, 230, 230, 0.8) 25%, #bae0ff 50%, rgba(230, 230, 230, 0.8) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0; 
+  }
+  100% {
+    background-position: 0 0; 
+  }
+}
+
+
+.Cursor{
+  cursor: pointer;
+}
+
+.scroll-x-container{
+  overflow-x: scroll;
+}
+
+.scroll-x-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll-x-container::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+.scroll-xy-continer{
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+.scroll-xy-continer::-webkit-scrollbar{
+  height: 6px;
+}
+.scroll-xy-continer::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%; 
+}
+.Export_button{
+  justify-self: center;
+border-radius: 0;
+}
+
+.Export_button:hover{
+  background: whitesmoke !important; 
+}
+
+
+* {
+  user-select: none; /* Disables text selection */
+}
+
+
+
+.Log-Out{
+  background: #ff4d4f;
+  color: white; 
+  height: 27px; 
+  /* border: none; */
+  /* border-radius: 0 !important; */
+}
+
+.Log-Out:hover{
+  background-color: #ff6e70 !important;
+  color: rgb(226, 218, 218) !important;
+}
+
+.sharp-edged-modal .ant-modal-content {
+  border-radius: 0; 
+}
+
+.custom-collapse .ant-collapse-header {
+  padding: 0 !important;
+}
+
+.custom-collapse .ant-collapse-content-box {
+  padding: 0 !important; 
+}
+
+.custom-button{
+  border-radius: 0 !important;
+}
+
+.left-content {
+  flex: 1;
+  text-align: left;
+}
+
+.right-content {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+
+.ActionButton{
+  border-radius: 0 !important;
+}
+.ActionButton:hover{
+  border-radius: 0 !important;
+}
+
+.tableheader{
+  font-weight: 650;
+ font-family: sans-serif;
+}

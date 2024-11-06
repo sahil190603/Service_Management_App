@@ -1,0 +1,14 @@
+.login-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none; 
+  backdrop-filter: blur(20px); 
+  padding: 6px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
+}
+
+.gradient-text {
+  background: linear-gradient(125deg, #5ca4fc, #003eb3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center; 
+}

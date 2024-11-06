@@ -1,0 +1,24 @@
+/* Options.css */
+.options-container{
+    margin: 10px ; 
+  }
+  
+  .option-item{
+    padding: 10px; 
+    border: 2px solid black; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    text-align: center; 
+    background-color: white;
+  }
+  
+  .option-item:hover{
+    background-color: rgba(0, 150, 255, 0.1); 
+  }
+  
+  .selected{
+    border: 2px solid #007BFF; 
+    background-color: rgba(0, 123, 255, 0.1); 
+  }
+  
